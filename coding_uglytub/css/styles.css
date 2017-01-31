@@ -1,0 +1,268 @@
+/*GENERELT FOR ALLE*/
+
+body {
+    background-image: url(marmor_baggrund_2.jpg);
+    background-size: cover;
+}
+h1 {
+    font-family: "avenir next";
+    font-weight: 200;
+    font-size: 55pt;
+    /*    margin-left: 11vw;*/
+    text-align: center;
+}
+p {
+    font-family: "avenir next";
+    color: white;
+}
+hr {
+    width: 88vw;
+    margin-left: 4vw;
+    /*    text-align: center;*/
+}
+footer p {
+    text-align: center;
+    color: #7a7c81;
+    align-content: space-around;
+}
+#p_footer {
+    margin-left: 2vw;
+    display: inline-flex;
+    text-align: center;
+}
+#p_footer_1 {
+    margin-left: -2vw;
+    display: inline-flex;
+    text-align: center;
+}
+footer {
+    text-align: center;
+}
+div.transbox {
+    width: 75vw;
+    height: 38vw;
+    background-color: rgba(0, 0, 0, .4);
+    margin-left: -0.9vw;
+    margin-bottom: 5vw;
+}
+
+/*NAVIGATION */
+
+#nav_bar {
+    display: inline-flex;
+    margin-left: 37vw;
+}
+#p_nav {
+    color: dimgrey;
+    text-decoration: none;
+    font-family: "avenir next";
+    display: inline-flex;
+    /*    margin-top: 1vw;*/
+}
+.active #p_nav {
+    color: black;
+}
+.om_mg {
+    margin-right: 2.0vw;
+}
+.uds_nav {
+    margin-left: 1.1vw;
+    margin-right: 1.9vw;
+}
+.MPP_nav {
+    margin-right: 0.1vw;
+}
+.contrast_nav {
+    margin-left: 3.1vw;
+}
+#logo_nav {
+    width: 20vw;
+    /*    margin-top: 0.5vw;*/
+    /*    display: inline-flex;*/
+}
+
+/*NUMBERS SIDE*/
+
+#info {
+    cursor: pointer;
+}
+.transbox_number {
+    width: 75vw;
+    height: 115vh;
+    background-color: rgba(0, 0, 0, .4);
+    margin-left: -0.9vw;
+    margin-bottom: 2vw;
+}
+.highlight {
+    /*    background-color: yellow;*/
+    /*    font-style: italic;*/
+    font-weight: 900;
+}
+.selected {
+    color: orange;
+    font-weight: bold;
+}
+#kort {
+    position: relative;
+    width: 32vw;
+    height: 60vw;
+    right: -16.2vw;
+    text-align: center;
+}
+#liste_h {
+    position: absolute;
+    bottom: 5.35vw;
+    color: white;
+    left: 15.29vw;
+}
+#liste_v {
+    position: absolute;
+    bottom: 5.35vw;
+    right: 26.9vw;
+    color: white;
+    text-align: right;
+}
+ul {
+    list-style-type: none;
+    font-family: "avenir next";
+    font-weight: 100;
+    font-size: 5pt;
+}
+
+/*UDSTILLINGEN */
+
+#portaits {
+    margin-top: 2vw;
+    margin-left: 3.5vw;
+}
+#robert {
+    max-width: 97%;
+    margin-left: 2.1vw;
+}
+#jason {
+    max-width: 97%;
+    margin-left: 2.1vw;
+    margin-bottom: 1vw;
+}
+#MPP_INFO {
+    color: white;
+    margin-top: 2vw;
+    margin-left: 1.2vw;
+    font-weight: 300;
+    letter-spacing: 0.8px;
+    font-size: 12pt;
+}
+#protreat_info {
+    margin-left: 1.8vw;
+}
+
+/*PAST/PRESENT SIDE*/
+
+#tidslinje {
+    margin-top: 2vw;
+}
+#kort_dekadente {
+    position: absolute;
+    background-image: url(tidslinje_ny.jpg);
+    background-size: 100%;
+    /* position: absolute; */
+    width: 35vw;
+    height: 134vw;
+    margin-left: 15vw;
+    /* outline: 4px dashed orange; */
+}
+#kort_dekadente svg {
+    width: 100%;
+    height: 100%;
+}
+#overskrift_contrast {
+    font-family: "avenir next";
+    font-weight: 300;
+    font-size: 40pt;
+    color: white;
+    text-align: center;
+}
+#aarstal {
+    font-family: "avenir next";
+    font-weight: 400;
+    font-size: 23pt;
+    color: white;
+    text-align: center;
+}
+#brodtekst {
+    font-family: "avenir next";
+    color: white;
+    text-align: center;
+}
+.info {
+    position: relative;
+    margin-left: -3vw;
+    margin-top: 12.4vw;
+    width: 17vw;
+    height: 20vw
+    /*    margin-top: -100vw;*/
+}
+.info_1 {
+    position: relative;
+    margin-left: 50vw;
+    margin-top: 24.3vw;
+    width: 20vw;
+    height: 20vw;
+}
+.info_2 {
+    position: relative;
+    margin-left: -4vw;
+    margin-top: 26vw;
+    width: 18vw;
+    height: 20vw;
+}
+.transbox_contrast {
+    position: relative;
+    width: 75vw;
+    height: 270vh;
+    background-color: rgba(0, 0, 0, .4);
+    margin-left: 8.1vw;
+    margin-bottom: 5vw;
+}
+.info #punkt2 {
+    margin-bottom: 30vw;
+}
+
+/*OM MARCO GROB SIDE*/
+
+#protreat_info {
+    font-weight: 100;
+    font-size: 8pt;
+}
+#marco {
+    margin-left: 1.79vw;
+}
+
+/*
+FORSIDE SIDE
+*/
+
+.video_container {
+    position: relative;
+    width: 800px;
+    height: 480px;
+    margin-bottom: 5vw;
+    margin-top: 3vw;
+}
+.transbox_forside {
+    display: none;
+    position: absolute;
+    width: 800px;
+    height: 480px;
+    background-color: rgba(0, 0, 0, .4);
+    margin-left: -0.8vw;
+    margin-bottom: 5vw;
+}
+#p_forside {
+    font-family: "avenir next", heavy;
+    color: white;
+    font-size: 49pt;
+    font-weight: 300;
+    text-align: center;
+    margin-top: 7vw;
+}

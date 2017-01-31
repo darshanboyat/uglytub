@@ -1,0 +1,141 @@
+                                                                        /*GENERELT FOR ALLE*/
+                                                                    
+                                                                    body {}
+                                                                    #slogan_text {
+                                                                        /*    position: relative;*/
+                                                                    }
+                                                                    p {
+                                                                        font-family: "avenir next";
+                                                                        color: black;
+                                                                        padding: 22px;
+                                                                        padding-top: 22px;
+                                                                    }
+                                                                    hr {
+                                                                        width: 88vw;
+                                                                        margin-left: 4vw;
+                                                                        /*    text-align: center;*/
+                                                                    }
+                                                                    footer p {
+                                                                        text-align: center;
+                                                                        color: #7a7c81;
+                                                                        align-content: space-around;
+                                                                    }
+                                                                    #p_footer {
+                                                                        margin-left: 2vw;
+                                                                        display: inline-flex;
+                                                                        text-align: center;
+                                                                    }
+                                                                    #p_footer_1 {
+                                                                        margin-left: -2vw;
+                                                                        display: inline-flex;
+                                                                        text-align: center;
+                                                                    }
+                                                                    footer {
+                                                                        text-align: center;
+                                                                    }
+                                                                    /*
+FORSIDE SIDE
+*/
+                                                                    
+                                                                    h1 {
+                                                                        font-family: "avenir next";
+                                                                        font-weight: 100;
+                                                                        font-size: 30pt;
+                                                                        text-align: center;
+                                                                    }
+                                                                    h2 {
+                                                                        font-family: "avenir next";
+                                                                        /*    font-weight: 100;*/
+                                                                        font-size: 20pt;
+                                                                        text-align: center;
+                                                                        color: black;
+                                                                        padding-top: 13px;
+                                                                    }
+                                                                    h3 {
+                                                                        font-family: "avenir next";
+                                                                        font-weight: normal;
+                                                                        font-size: 15pt;
+                                                                        text-align: center;
+                                                                        color: #ca9db5;
+                                                                        padding-bottom: 1vw;
+                                                                        padding-top: 6vw;
+                                                                    }
+                                                                    #overskrift_slogan {
+                                                                        margin-bottom: 150px;
+                                                                    }
+                                                                    #pink_spot {
+                                                                        position: absolute;
+                                                                        width: 250px;
+                                                                        top: -23px;
+                                                                        right: 156px;
+                                                                        z-index: -1;
+                                                                    }
+                                                                    #why_info {
+                                                                        padding: 0;
+                                                                    }
+                                                                    #slogan_info {
+                                                                        /*    font-family: Arial;*/
+                                                                        padding-top: auto;
+                                                                        color: black;
+                                                                        margin-top: 2vw;
+                                                                        margin-left: 1.2vw;
+                                                                        letter-spacing: 0.8px;
+                                                                        font-size: 12pt;
+                                                                        background: #9db0ca;
+                                                                    }
+                                                                    ul {
+                                                                        list-style-image: url('spot.png');
+                                                                        padding-right: 2px;
+                                                                    }
+                                                                    #about_text {
+                                                                        background: #9db0ca;
+                                                                    }
+                                                                    /*
+#p_about {
+    padding: 1px;
+    padding-top: 1px;
+}
+*/
+                                                                    
+                                                                    #bottom_info {
+                                                                        padding-top: 6vw;
+                                                                    }
+                                                                    #services_text {
+                                                                        font-size: 15pt;
+                                                                        font-weight: 0;
+                                                                    }
+                                                                    #find_us_text {
+                                                                        font-size: 15pt;
+                                                                        font-weight: 0;
+                                                                    }
+                                                                    #find_us_pin {
+                                                                        width: 20px;
+                                                                        align-content: center;
+                                                                    }
+                                                                    #pink_spot_two {
+                                                                        position: absolute;
+                                                                        width: 149px;
+                                                                        top: -13px;
+                                                                        left: 24px;
+                                                                        z-index: -1;
+                                                                    }
+                                                                    #find_us_section {
+                                                                        /*    position: absolute;*/
+                                                                    }
+                                                                    #p_forside {
+                                                                        font-family: "avenir next", heavy;
+                                                                        color: white;
+                                                                        font-size: 49pt;
+                                                                        font-weight: 300;
+                                                                        text-align: center;
+                                                                        margin-top: 7vw;
+                                                                    }
+                                                                    /*NAVIGATION */
+                                                                    
+                                                                    #nav_tab {
+                                                                        font-size: 15pt;
+                                                                        padding-right: 46px;
+                                                                        padding-top: 32px
+                                                                    }
+                                                                    #info {
+                                                                        cursor: pointer;

@@ -1,0 +1,19 @@
+#kort_contrast {
+    width: 10vw;
+    height: 20vw;
+    /*    position: relative;*/
+}
+.tekst {
+    /*    position: absolute;*/
+    background-color: #ef00ef;
+    width: 100vw;
+    height: 100px;
+    border: 2px solid #000000;
+    margin-right: 10px;
+    display: inline-block;
+    cursor: pointer;
+    margin-top: 70vw;
+}
+.st1 {
+    cursor: pointer;
+}
